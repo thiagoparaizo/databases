@@ -1,0 +1,162 @@
+{
+	  "config_app" : {
+	    "Name":"Minha Mesada",
+		"version":"1.0.0",
+		"data_atualizacao":123455677,
+		"language":"pt_BR",
+		"grupos":["ADM","GENITOR","GENITOR_AUX","GERENCIADO"]
+	  },
+	  
+	  "lista_tarefas_app" :[{
+		  		"tarefa":{
+					"id":"id_tarefa1",
+					"descricao":"Descrição da Tarefa 1",
+					"detalhes":"Detalhes longo da tarefa",
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0
+  				}
+	  		},{
+	  			"tarefa":{
+					"id":"id_tarefa2",
+					"descricao":"Descrição da Tarefa 2",
+					"detalhes":"Detalhes longo da tarefa",
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0
+  				}
+	  		},{
+	  			"tarefa":{
+					"id":"id_tarefa3",
+					"descricao":"Descrição da Tarefa 3",
+					"detalhes":"Detalhes longo da tarefa",
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0
+  				}
+	  }],
+	  
+	  "advertencias_app" :[{
+	  			"advertencia":{
+	  				"id":"id_advertencia1",
+					"descricao":"Descrição da Advertencia",
+					"detalhes":"Detalhes longo da advertencia",
+					"contabilizaMesada":true,
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0
+	  			}
+	  		},{
+	  		"advertencia":{
+	  				"id":"id_advertencia2",
+					"descricao":"Descrição da Advertencia",
+					"detalhes":"Detalhes longo da advertencia",
+					"contabilizaMesada":true,
+					"pontuacaoReferencia":6.5,
+					"valorReferencia":0
+	  			}
+	  }],
+	  
+	 
+	  "usuarios_app" : {
+			"wAwYxfAPPpZintZiE81EU5LGlyu2" : {
+			  "dados_pessoas" : {
+			    "birthDate" : "17-01-1986",
+			    "firstName" : "Thiago",
+			    "lastName" : "Paraizo da Silva",
+			    "phone" : "+55 (85)981516682",
+			    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268"
+			  },
+			  "auxiliar" : {
+			    "birthDate" : "11-11-1991",
+			    "firstName" : "Gessica",
+			    "lastName" : "Tavares",
+			    "phone" : "+55 (85)981616682",
+			    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
+			    "uid" : "id_aux"
+			  },
+			  "lista_gerenciados" : [ {
+				    "gerenciado" : {
+						"uid" : "uid_gerenciado1",
+						"dados_pessoais":{
+							"birthDate" : "17-01-1986",
+							"firstName" : "Thiago",
+							"lastName" : "Paraizo da Silva",
+							"phone" : "+55 (85)981516682",
+							"photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268"
+						},
+						"lista_tarefas":[{
+							"tarefa":{
+							"id":"id_tarefa_referencia",
+							"idUnicoTarefa":"id_unico",
+							"descricao":"Descrição da Tarefa",
+							"detalhes":"Detalhes longo da tarefa",
+							"contabilizaMesada":false,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"listaMensal":[{
+								"mesReferencia":{
+									"dataReferencia":"01-2016",
+									"dataInicio":"01-01-2016",
+									"dataFim":"01-01-2016",
+									"status":"concluido",
+									"pontuacao":0,
+									"valor":0,
+									"agendamento":[{
+										"diaSemana":{
+											"diaSemana":1,
+											"horario_inicio":"10:30",
+											"horario_fim":"11:00",
+											"ativo":true,
+											"listaTasks":[{
+												"task":{
+													"data":"01-01-2016 10:00:00",
+													"status":"submitted"
+												}
+											},{
+												"task":{
+													"data":"01-01-2016 16:00:00",
+													"status":"approved"
+												}
+											},{
+												"task":{
+													"data":"02-01-2016 10:00:00",
+													"status":"reject"
+												}
+											}]
+										}
+									},{
+										"diaSemana":{
+											"diaSemana":1,
+											"horario_inicio":"16:30",
+											"horario_fim":"17:00",
+											"ativo":true
+										}
+									},{
+										"diaSemana":{
+											"diaSemana":2,
+											"horario_inicio":"16:30",
+											"horario_fim":"17:00",
+											"ativo":true
+										}
+									}]						
+								} 
+							}]
+							
+							}
+						}],
+						"listaAdvertencias":[{
+							"advertencia":{
+							"id":"id_advertencia_referencia",
+							"idUnicoadvertencia":"id_unico",
+							"descricao":"Descrição da Advertencia",
+							"detalhes":"Detalhes longo da advertencia",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"data":"01-01-2016 10:30"
+							}
+							
+						}]
+						
+				    }
+			  }]
+			}
+  		}
+}

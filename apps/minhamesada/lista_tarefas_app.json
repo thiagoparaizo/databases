@@ -1,0 +1,27 @@
+{
+	[{
+	  		"tarefa":{
+				"id":"id_tarefa1",
+				"descricao":"Descrição da Tarefa 1",
+				"detalhes":"Detalhes longo da tarefa",
+				"pontuacaoReferencia":5.5,
+				"valorReferencia":0
+			}
+  		},{
+  			"tarefa":{
+				"id":"id_tarefa2",
+				"descricao":"Descrição da Tarefa 2",
+				"detalhes":"Detalhes longo da tarefa",
+				"pontuacaoReferencia":5.5,
+				"valorReferencia":0
+			}
+  		},{
+  			"tarefa":{
+				"id":"id_tarefa3",
+				"descricao":"Descrição da Tarefa 3",
+				"detalhes":"Detalhes longo da tarefa",
+				"pontuacaoReferencia":5.5,
+				"valorReferencia":0
+			}
+	  }]
+}
