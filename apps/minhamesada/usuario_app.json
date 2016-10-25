@@ -1,0 +1,14 @@
+{
+	"usuario_uid":{
+		"d_pess":{},
+		"aux" : {},
+		"l_dep" : [ {} ],
+		"l_task_cus": [ {} ],
+		"l_adv_cus": [ {} ],
+		"l_bon_cus": [ {} ],
+		"l_evt_aviso": [],
+		"config":{"alertasGeralDesativados":true,"lembretesGeralDesativados":false},
+		"dt_sync":"data_sync",
+		"status":"ativo"
+	}
+}

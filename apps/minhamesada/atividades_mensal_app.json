@@ -1,0 +1,22 @@
+{
+	"atv_mensal":{
+		"count_ref":"1",
+		"status":"ABERTO - CONCLUIDO - CANCELADO",
+		"pt_positiva":0.1,
+		"config":{
+			"tipo_meta":"PONTUACAO - VALOR",
+			"pt_negativa":1.1,
+			"vl_positivo":5.5,
+			"vl_negativo":6.6,
+			"dt_ini":"",
+			"dt_fim":"",
+			"status":"ABERTO - CONCLUIDO - CANCELADO"
+		},
+		"l_tasks":[{}],
+		"l_adv":[{}],
+		"l_bonif":[{}],
+		"l_evt_atv":[{
+			"tkid":"", "dt":"data_evt_task","status":"F-EITO | N-nao feito | I-GNORADO"
+		}]
+	}
+}

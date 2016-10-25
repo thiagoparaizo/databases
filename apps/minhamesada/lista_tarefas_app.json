@@ -1,27 +1,99 @@
 {
-	[{
-	  		"tarefa":{
-				"id":"id_tarefa1",
-				"descricao":"DescriÃ§Ã£o da Tarefa 1",
-				"detalhes":"Detalhes longo da tarefa",
-				"pontuacaoReferencia":5.5,
-				"valorReferencia":0
-			}
-  		},{
-  			"tarefa":{
-				"id":"id_tarefa2",
-				"descricao":"DescriÃ§Ã£o da Tarefa 2",
-				"detalhes":"Detalhes longo da tarefa",
-				"pontuacaoReferencia":5.5,
-				"valorReferencia":0
-			}
-  		},{
-  			"tarefa":{
-				"id":"id_tarefa3",
-				"descricao":"DescriÃ§Ã£o da Tarefa 3",
-				"detalhes":"Detalhes longo da tarefa",
-				"pontuacaoReferencia":5.5,
-				"valorReferencia":0
-			}
+	"lista_tarefas_app" :[{
+		  		"tarefa":{
+					"id":1,
+					"descricao":"Descrição da Tarefa 1",
+					"detalhes":"Detalhes longo da tarefa",
+					"necessarioAprovacao":false,
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0,
+					"lembretes":{
+						"lembreteGenitor":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						},
+						"lembreteGerenciado":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						}
+					},
+					"avisos":{
+						"avisosGenitor":{
+							"avisoCumprimentoAtivado":true,
+							"avisoNaoCumprimentoAtivado":true
+						},
+						"avisosGerenciado":{
+							"avisoApprovedAtivado":true,
+							"avisoTarefaAdvertenciaCriadaAtivado":true
+						}
+					}
+					
+  				}
+	  		},{
+	  			"tarefa":{
+					"id":2,
+					"descricao":"Descrição da Tarefa 1",
+					"detalhes":"Detalhes longo da tarefa",
+					"necessarioAprovacao":false,
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0,
+					"lembretes":{
+						"lembreteGenitor":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						},
+						"lembreteGerenciado":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						}
+					},
+					"avisos":{
+						"avisosGenitor":{
+							"avisoCumprimentoAtivado":true,
+							"avisoNaoCumprimentoAtivado":true
+						},
+						"avisosGerenciado":{
+							"avisoApprovedAtivado":true,
+							"avisoTarefaAdvertenciaCriadaAtivado":true
+						}
+					}
+					
+  				}
+	  		},{
+	  			"tarefa":{
+					"id":3,
+					"descricao":"Descrição da Tarefa 1",
+					"detalhes":"Detalhes longo da tarefa",
+					"necessarioAprovacao":false,
+					"pontuacaoReferencia":5.5,
+					"valorReferencia":0,
+					"lembretes":{
+						"lembreteGenitor":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						},
+						"lembreteGerenciado":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						}
+					},
+					"avisos":{
+						"avisosGenitor":{
+							"avisoCumprimentoAtivado":true,
+							"avisoNaoCumprimentoAtivado":true
+						},
+						"avisosGerenciado":{
+							"avisoApprovedAtivado":true,
+							"avisoTarefaAdvertenciaCriadaAtivado":true
+						}
+					}
+					
+  				}
 	  }]
 }

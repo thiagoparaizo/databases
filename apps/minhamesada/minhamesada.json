@@ -7,74 +7,7 @@
 		"grupos":["ADM","GENITOR","GENITOR_AUX","GERENCIADO"]
 	  },
 	  
-	  "lista_tarefas_app" :[{
-		  		"tarefa":{
-					"id":"id_tarefa1",
-					"descricao":"Descrição da Tarefa 1",
-					"detalhes":"Detalhes longo da tarefa",
-					"necessarioAprovacao":false,
-					"lembretes":{
-						"lembreteGenitor":{
-							"lembreteAtivado":true,
-							"tempoLembrete":5,
-							"lembreteAtivadoFinalDeSemana":true
-						},
-						"lembreteGerenciado":{
-							"lembreteAtivado":true,
-							"tempoLembrete":5,
-							"lembreteAtivadoFinalDeSemana":true
-						}
-					},
-					"avisos":{
-						"avisosGenitor":{
-							"avisoCumprimentoAtivado":true,
-							"avisoNaoCumprimentoAtivado":true
-						},
-						"avisosGerenciado":{
-							"avisoApprovedAtivado":true,
-							"avisoTarefaAdvertenciaCriadaAtivado":true
-						}
-					},
-					"pontuacaoReferencia":5.5,
-					"valorReferencia":0
-  				}
-	  		},{
-	  			"tarefa":{
-					"id":"id_tarefa2",
-					"descricao":"Descrição da Tarefa 2",
-					"detalhes":"Detalhes longo da tarefa",
-					"pontuacaoReferencia":5.5,
-					"valorReferencia":0
-  				}
-	  		},{
-	  			"tarefa":{
-					"id":"id_tarefa3",
-					"descricao":"Descrição da Tarefa 3",
-					"detalhes":"Detalhes longo da tarefa",
-					"pontuacaoReferencia":5.5,
-					"valorReferencia":0
-  				}
-	  }],
-	  
-	  "lista_advertencias_app" :[{
-	  			"advertencia":{
-	  				"id":"id_advertencia1",
-					"descricao":"Descrição da Advertencia",
-					"detalhes":"Detalhes longo da advertencia",
-					"contabilizaMesada":true,
-					"pontuacaoReferencia":5.5,
-					"valorReferencia":0
-	  			}
-	  		},{
-	  		"advertencia":{
-	  				"id":"id_advertencia2",
-					"descricao":"Descrição da Advertencia",
-					"detalhes":"Detalhes longo da advertencia",
-					"contabilizaMesada":true,
-					"pontuacaoReferencia":6.5,
-					"valorReferencia":0
-	  			}
-	  }],
+	 
 	  
 	 
 	  "usuarios_app" : {
