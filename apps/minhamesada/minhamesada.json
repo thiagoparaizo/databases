@@ -10,15 +10,38 @@
 	  "lista_tarefas_app" :[{
 		  		"tarefa":{
 					"id":"id_tarefa1",
-					"descricao":"DescriÃ§Ã£o da Tarefa 1",
+					"descricao":"Descrição da Tarefa 1",
 					"detalhes":"Detalhes longo da tarefa",
+					"necessarioAprovacao":false,
+					"lembretes":{
+						"lembreteGenitor":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						},
+						"lembreteGerenciado":{
+							"lembreteAtivado":true,
+							"tempoLembrete":5,
+							"lembreteAtivadoFinalDeSemana":true
+						}
+					},
+					"avisos":{
+						"avisosGenitor":{
+							"avisoCumprimentoAtivado":true,
+							"avisoNaoCumprimentoAtivado":true
+						},
+						"avisosGerenciado":{
+							"avisoApprovedAtivado":true,
+							"avisoTarefaAdvertenciaCriadaAtivado":true
+						}
+					},
 					"pontuacaoReferencia":5.5,
 					"valorReferencia":0
   				}
 	  		},{
 	  			"tarefa":{
 					"id":"id_tarefa2",
-					"descricao":"DescriÃ§Ã£o da Tarefa 2",
+					"descricao":"Descrição da Tarefa 2",
 					"detalhes":"Detalhes longo da tarefa",
 					"pontuacaoReferencia":5.5,
 					"valorReferencia":0
@@ -26,17 +49,17 @@
 	  		},{
 	  			"tarefa":{
 					"id":"id_tarefa3",
-					"descricao":"DescriÃ§Ã£o da Tarefa 3",
+					"descricao":"Descrição da Tarefa 3",
 					"detalhes":"Detalhes longo da tarefa",
 					"pontuacaoReferencia":5.5,
 					"valorReferencia":0
   				}
 	  }],
 	  
-	  "advertencias_app" :[{
+	  "lista_advertencias_app" :[{
 	  			"advertencia":{
 	  				"id":"id_advertencia1",
-					"descricao":"DescriÃ§Ã£o da Advertencia",
+					"descricao":"Descrição da Advertencia",
 					"detalhes":"Detalhes longo da advertencia",
 					"contabilizaMesada":true,
 					"pontuacaoReferencia":5.5,
@@ -45,7 +68,7 @@
 	  		},{
 	  		"advertencia":{
 	  				"id":"id_advertencia2",
-					"descricao":"DescriÃ§Ã£o da Advertencia",
+					"descricao":"Descrição da Advertencia",
 					"detalhes":"Detalhes longo da advertencia",
 					"contabilizaMesada":true,
 					"pontuacaoReferencia":6.5,
@@ -56,10 +79,11 @@
 	 
 	  "usuarios_app" : {
 			"wAwYxfAPPpZintZiE81EU5LGlyu2" : {
-			  "dados_pessoas" : {
+			  "dados_pessoais" : {
 			    "birthDate" : "17-01-1986",
 			    "firstName" : "Thiago",
 			    "lastName" : "Paraizo da Silva",
+			    "email":"thiagoparaizo@gmail.com",
 			    "phone" : "+55 (85)981516682",
 			    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268"
 			  },
@@ -67,17 +91,22 @@
 			    "birthDate" : "11-11-1991",
 			    "firstName" : "Gessica",
 			    "lastName" : "Tavares",
+			    "email":"auxiliar@gmail.com",
 			    "phone" : "+55 (85)981616682",
 			    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
-			    "uid" : "id_aux"
+			    "uid" : "id_aux",
+			    "alertasGeralDesativados":true,
+			    "lembretesGeralDesativados":true
+			    
 			  },
 			  "lista_gerenciados" : [ {
 				    "gerenciado" : {
 						"uid" : "uid_gerenciado1",
 						"dados_pessoais":{
-							"birthDate" : "17-01-1986",
-							"firstName" : "Thiago",
-							"lastName" : "Paraizo da Silva",
+							"birthDate" : "20-03-2006",
+							"firstName" : "Thais",
+							"lastName" : "Guedes Paraizo",
+							"apelido":"Thatha",
 							"phone" : "+55 (85)981516682",
 							"photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268"
 						},
@@ -85,7 +114,7 @@
 							"tarefa":{
 							"id":"id_tarefa_referencia",
 							"idUnicoTarefa":"id_unico",
-							"descricao":"DescriÃ§Ã£o da Tarefa",
+							"descricao":"Descriçãoo da Tarefa",
 							"detalhes":"Detalhes longo da tarefa",
 							"contabilizaMesada":false,
 							"pontuacaoReferencia":5.5,
@@ -98,6 +127,7 @@
 									"status":"concluido",
 									"pontuacao":0,
 									"valor":0,
+									"dataCadastro":"01-01-2016",
 									"agendamento":[{
 										"diaSemana":{
 											"diaSemana":1,
@@ -107,7 +137,9 @@
 											"listaTasks":[{
 												"task":{
 													"data":"01-01-2016 10:00:00",
-													"status":"submitted"
+													"status":"submitted",
+													"anexoFile":"image.jpg",
+													"obs":"Observacao"
 												}
 											},{
 												"task":{
@@ -143,9 +175,120 @@
 						}],
 						"listaAdvertencias":[{
 							"advertencia":{
-							"id":"id_advertencia_referencia",
-							"idUnicoadvertencia":"id_unico",
-							"descricao":"DescriÃ§Ã£o da Advertencia",
+							"id":"id_advertencia1",
+							"descricao":"Descrição da Advertencia",
+							"detalhes":"Detalhes longo da advertencia",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"data":"01-01-2016 10:30",
+							"observacao":""
+							}
+							
+						},{
+							"advertencia":{
+							"id":"id_advertencia2",
+							"descricao":"Descrição da Advertencia",
+							"detalhes":"Detalhes longo da advertencia",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"data":"01-01-2016 10:30"
+							}
+							
+						}]
+						
+				    }
+			  },{
+				    "gerenciado" : {
+						"uid" : "uid_gerenciado2",
+						"dados_pessoais":{
+							"birthDate" : "21-04-2008",
+							"firstName" : "Pedro",
+							"lastName" : "Paraizo",
+							"apelido":"Pedrinho",
+							"phone" : "+55 (85)944444444",
+							"photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268"
+						},
+						"lista_tarefas":[{
+							"tarefa":{
+							"id":"id_tarefa_referencia",
+							"idUnicoTarefa":"id_unico",
+							"descricao":"Descriçãoo da Tarefa",
+							"detalhes":"Detalhes longo da tarefa",
+							"contabilizaMesada":false,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"listaMensal":[{
+								"mesReferencia":{
+									"dataReferencia":"01-2016",
+									"dataInicio":"01-01-2016",
+									"dataFim":"01-01-2016",
+									"status":"concluido",
+									"pontuacao":0,
+									"valor":0,
+									"dataCadastro":"01-01-2016",
+									"agendamento":[{
+										"diaSemana":{
+											"diaSemana":1,
+											"horario_inicio":"10:30",
+											"horario_fim":"11:00",
+											"ativo":true,
+											"listaTasks":[{
+												"task":{
+													"data":"01-01-2016 10:00:00",
+													"status":"submitted",
+													"anexoFile":"image.jpg",
+													"obs":"Observacao"
+												}
+											},{
+												"task":{
+													"data":"01-01-2016 16:00:00",
+													"status":"approved"
+												}
+											},{
+												"task":{
+													"data":"02-01-2016 10:00:00",
+													"status":"reject"
+												}
+											}]
+										}
+									},{
+										"diaSemana":{
+											"diaSemana":1,
+											"horario_inicio":"16:30",
+											"horario_fim":"17:00",
+											"ativo":true
+										}
+									},{
+										"diaSemana":{
+											"diaSemana":2,
+											"horario_inicio":"16:30",
+											"horario_fim":"17:00",
+											"ativo":true
+										}
+									}]						
+								} 
+							}]
+							
+							}
+						}],
+						"listaAdvertencias":[{
+							"advertencia":{
+							"id":"id_advertencia1",
+							"descricao":"Descrição da Advertencia",
+							"detalhes":"Detalhes longo da advertencia",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":5.5,
+							"valorReferencia":1.50,
+							"data":"01-01-2016 10:30",
+							"observacao":""
+							}
+							
+						},{
+							"advertencia":{
+							"id":"id_advertencia2",
+							"descricao":"Descrição da Advertencia",
 							"detalhes":"Detalhes longo da advertencia",
 							"contabilizaMesada":true,
 							"pontuacaoReferencia":5.5,
