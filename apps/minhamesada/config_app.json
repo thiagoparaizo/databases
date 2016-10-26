@@ -1,6 +1,9 @@
  {
-	    "Name":"Minha Mesada",
+	    "name":"Minha Mesada",
 		"version":"1.0.0",
-		"data_atualizacao":123455677,
-		"language":"pt_BR"
+		"dt_update":123455677,
+		"language":"pt_BR",
+		"money":"free",
+		"licenca":"free",
+		"validade":"-"
 	  }

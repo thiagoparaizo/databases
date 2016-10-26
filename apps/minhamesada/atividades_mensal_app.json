@@ -1,6 +1,5 @@
 {
-	"atv_mensal":{
-		"count_ref":"1",
+	"atv_mensal_{key}":{
 		"status":"ABERTO - CONCLUIDO - CANCELADO",
 		"pt_positiva":0.1,
 		"config":{

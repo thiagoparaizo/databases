@@ -1,9 +1,30 @@
 {
-	"dependente":{
+	"dep":{
 		"uid":"",
 		"d_pess":{},
-		"ref_count":"1",
-		"l_atv_mensal":[{}]
+		"conectado":false,
+		"dt_conectado":"date time conexao",
+		"dt_desconectado":"date time desconexao",
+		"dt_ultimo_acesso":"date time ultimo acesso",
+		"ref_atv_mensal_key":"atv_mensal_key",
+		"atvs_mensal":{
+			"atv_mensal_{key}":{
+				"status":"ABERTO - CONCLUIDO - CANCELADO",
+				"config":{
+					"tipo_meta":"PONTUACAO - VALOR",
+					"pt_positiva":0.1,
+					"pt_negativa":1.1,
+					"vl_positivo":5.5,
+					"vl_negativo":6.6,
+					"dt_ini":"",
+					"dt_fim":"",
+					"status":"ABERTO - CONCLUIDO - CANCELADO"
+				},
+				"l_tasks":[{}],
+				"l_adv":[{}],
+				"l_bonif":[{}]
+			}
+		}
 	}
 	
 }

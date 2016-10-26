@@ -1,0 +1,309 @@
+{
+	  "config_app" : {
+	    "name":"Minha Mesada",
+		"version":"1.0.0",
+		"dt_update":123455677,
+		"language":"pt_BR",
+		"money":"free",
+		"licenca":"free",
+		"validade":"-"
+		
+	  },
+	 
+	 "l_tarefas_app" :[{
+					 		"tarefa":{
+										"id":1,
+										"descricao":"Descrição da Tarefa 1",
+										"detalhes":"Detalhes longo da tarefa",
+										"necessarioAprovacao":false,
+										"pontuacaoReferencia":5.5,
+										"valorReferencia":0,
+										"lembretes":{
+											"lembreteGenitor":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											},
+											"lembreteGerenciado":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											}
+										},
+										"avisos":{
+											"avisosGenitor":{
+												"avisoCumprimentoAtivado":true,
+												"avisoNaoCumprimentoAtivado":true
+											},
+											"avisosGerenciado":{
+												"avisoApprovedAtivado":true,
+												"avisoTarefaAdvertenciaCriadaAtivado":true
+											}
+										}
+										
+									}
+  					},
+  					{
+					 		"tarefa":{
+										"id":2,
+										"descricao":"Descrição da Tarefa 2",
+										"detalhes":"Detalhes longo da tarefa 2",
+										"necessarioAprovacao":false,
+										"pontuacaoReferencia":5.5,
+										"valorReferencia":0,
+										"lembretes":{
+											"lembreteGenitor":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											},
+											"lembreteGerenciado":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											}
+										},
+										"avisos":{
+											"avisosGenitor":{
+												"avisoCumprimentoAtivado":true,
+												"avisoNaoCumprimentoAtivado":true
+											},
+											"avisosGerenciado":{
+												"avisoApprovedAtivado":true,
+												"avisoTarefaAdvertenciaCriadaAtivado":true
+											}
+										}
+										
+									}
+  					}],
+	 
+	 "l_adv_app" :[{
+		  			"adv":{
+		  				"id":1,
+						"descricao":"Descrição da Advertencia",
+						"detalhes":"Detalhes longo da advertencia",
+						"contabilizaMesada":true,
+						"pontuacaoReferencia":5.5,
+						"valorReferencia":0
+		  			}
+		  		},{
+			  		"adv":{
+			  				"id":2,
+							"descricao":"Descrição da Advertencia",
+							"detalhes":"Detalhes longo da advertencia",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":6.5,
+							"valorReferencia":0
+		  			}
+  				}],
+	 
+	 "l_bon_app" :[{
+		  			"bon":{
+		  				"id":1,
+						"descricao":"Descrição da bonificacao 2",
+						"detalhes":"Detalhes longo da bonificacao 2",
+						"contabilizaMesada":true,
+						"pontuacaoReferencia":5.5,
+						"valorReferencia":0
+		  			}
+		  		},{
+			  		"bon":{
+			  				"id":2,
+							"descricao":"Descrição da bonificacao 2",
+							"detalhes":"Detalhes longo da bonificacao 2",
+							"contabilizaMesada":true,
+							"pontuacaoReferencia":6.5,
+							"valorReferencia":0
+		  			}
+	  			}],
+	 
+	  "l_usu_app" : {
+			"usuario_{uid}":{
+				"d_pess" : {
+				    "uid" : "uid",
+				    "displayName" : "Thiago",
+				    "email":"thiagoparaizo@gmail.com",
+				    "emailVerified" : false,
+				    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
+				    "birthDate" : "17-01-1986",
+				    "perfil":"'GENITOR"
+				},
+				"aux":{
+					"uid":"uid",
+					"d_pess" : {
+				    "uid" : "uid",
+				    "displayName" : "Thiago",
+				    "email":"thiagoparaizo@gmail.com",
+				    "emailVerified" : false,
+				    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
+				    "birthDate" : "17-01-1986",
+				    "perfil":"'GENITOR_AUX"
+				},		
+					"alertasGeralDesativados":true,
+				    "lembretesGeralDesativados":true
+				},
+				"l_dep" : [{
+							"dep":{
+								"uid":"uid",
+								"config":{
+									"dt_sync":"data sincronização",
+									"ativo":true,
+									"conectado":false,
+									"dt_conectado":"date time conexao",
+									"dt_desconectado":"date time desconexao",
+									"dt_ultimo_acesso":"date time ultimo acesso"
+								},
+								
+								"d_pess":{
+								    "uid" : "uid",
+								    "displayName" : "Thiago",
+								    "email":"thiagoparaizo@gmail.com",
+								    "emailVerified" : false,
+								    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
+								    "birthDate" : "17-01-1986",
+								    "perfil":"'DEPENDENTE"
+								},
+								"ref_atv_mensal_key":"atv_mensal_key",
+								"atvs_mensal":{
+									"atv_mensal_{key}":{
+										"status":"ABERTO - CONCLUIDO - CANCELADO",
+										"config":{
+											"tipo_meta":"PONTUACAO - VALOR",
+											"pt_positiva":0.1,
+											"pt_negativa":1.1,
+											"vl_positivo":5.5,
+											"vl_negativo":6.6,
+											"dt_ini":"",
+											"dt_fim":"",
+											"status":"ABERTO - CONCLUIDO - CANCELADO"
+										},
+										
+										"l_tasks":[{
+													"tasks":{
+														"custom":true,
+														"id_ref":1,
+														"exec_diaria":false,
+														"exec_dia_sem":[
+															{"0-domingo":["10:00","16:00"]},
+															{"1":["10:00","16:00"]},
+															{"2":["10:00"]},
+															{"7-ececução diária":["12:00"]}
+														],
+														"l_evt_atv":[{
+															"evt":{
+																"id_evt":"","ag":"data time agendamento", "chrom_ini":true, "chrom_sonec":true, "chrom_ativ":false, "id_chrom":"obj_chrom", "dt_exec":"data_evt_task","st_exec":"F-EITO | N-nao feito | I-GNORADO"
+															}
+														},{
+															"evt":{
+																"id_evt":"","ag":"30-10-2016 16:00", "chrom_ini":true, "chrom_sonec":true, "chrom_ativ":false, "id_chrom":"obj_chrom", "dt_exec":"30-10-2016 16:05","st_exec":"F"
+															}
+														},{
+															"evt":{
+																"id_evt":"","ag":"30-10-2016 16:00", "chrom_ini":true, "chrom_sonec":true, "chrom_ativ":false, "id_chrom":"obj_chrom", "dt_exec":"30-10-2016 16:05","st_exec":"N"
+															}
+														},{
+															"evt":{
+																"id_evt":"","ag":"30-10-2016 16:00", "chrom_ini":true, "chrom_sonec":false, "chrom_ativ":false, "id_chrom":"obj_chrom",  "dt_exec":"30-10-2016 16:05","st_exec":"C"
+															}
+														}]
+														
+													}
+												}],
+												
+										"l_adv":[{
+													"adv":{
+										  				"id":1,
+														"descricao":"Descrição da Advertencia",
+														"detalhes":"Detalhes longo da advertencia",
+														"contabilizaMesada":true,
+														"pontuacaoReferencia":5.5,
+														"valorReferencia":0
+										  			}
+									  			}],
+									  			
+										"l_bonif":[{
+													"bon":{
+										  				"id":1,
+														"descricao":"Descrição da bonificacao",
+														"detalhes":"Detalhes longo da bonificacao",
+														"contabilizaMesada":true,
+														"pontuacaoReferencia":5.5,
+														"valorReferencia":0
+										  			}
+									  			}]
+									}
+								}
+							}
+						}],
+						
+				"l_tarefas_cus": [ {
+									"tarefa":{
+										"id":1,
+										"descricao":"Descrição da Tarefa 1",
+										"detalhes":"Detalhes longo da tarefa",
+										"necessarioAprovacao":false,
+										"pontuacaoReferencia":5.5,
+										"valorReferencia":0,
+										"lembretes":{
+											"lembreteGenitor":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											},
+											"lembreteGerenciado":{
+												"lembreteAtivado":true,
+												"tempoLembrete":5,
+												"lembreteAtivadoFinalDeSemana":true
+											}
+										},
+										"avisos":{
+											"avisosGenitor":{
+												"avisoCumprimentoAtivado":true,
+												"avisoNaoCumprimentoAtivado":true
+											},
+											"avisosGerenciado":{
+												"avisoApprovedAtivado":true,
+												"avisoTarefaAdvertenciaCriadaAtivado":true
+											}
+										}
+										
+					  				}
+				  				} ],
+				  				
+				"l_adv_cus": [ {
+								"adv":{
+					  				"id":1,
+									"descricao":"Descrição da Advertencia",
+									"detalhes":"Detalhes longo da advertencia",
+									"contabilizaMesada":true,
+									"pontuacaoReferencia":5.5,
+									"valorReferencia":0
+					  			}
+				  			} ],
+				  			
+				"l_bon_cus": [ {
+								"bon":{
+					  				"id":1,
+									"descricao":"Descrição da bonificacao",
+									"detalhes":"Detalhes longo da bonificacao",
+									"contabilizaMesada":true,
+									"pontuacaoReferencia":5.5,
+									"valorReferencia":0
+					  			}
+				  			} ],
+				  			
+				"l_evt_push": [{"ori":"origem_do_push","dst":"destino_do_push (usu ou dep)","tp":"T (T-tarefa | A-advertencia | B-bonificacao | L-lembrete)","id_tp":"id_do_destino_da_acao", "pend":true},
+				{"ori":"","dst":"","tp":"T (T-tarefa | A-advertencia | B-bonificacao | L-lembrete)","id_tp":"id_do_destino_da_acao", "pend":true}],
+				
+				"config":{
+					"alertasGeralDesativados":true,
+					"lembretesGeralDesativados":false,
+					"licenca":"free",
+					"validade":"-"
+				},
+				"dt_sync":"data sincronização",
+				"status":"ativo"
+			}
+	  }
+	  
+}
