@@ -157,10 +157,13 @@
 								"d_pess":{
 								    "uid" : "uid",
 								    "displayName" : "Thiago",
+								    "apelido" : "Thiaguinho",
 								    "email":"thiagoparaizo@gmail.com",
 								    "emailVerified" : false,
 								    "photoURL" : "https://firebasestorage.googleapis.com/v0/b/minhamesada-8a570.appspot.com/o/user_profiles%2Fprofile.jpg?alt=media&token=10223aeb-dfe7-4e75-abcd-f9fd9553b268",
 								    "birthDate" : "17-01-1986",
+								    "schoolSerie":"6 série",
+								    
 								    "perfil":"'DEPENDENTE"
 								},
 								"ref_atv_mensal_key":"atv_mensal_key",
@@ -175,7 +178,8 @@
 											"vl_negativo":6.6,
 											"dt_ini":"",
 											"dt_fim":"",
-											"status":"ABERTO - CONCLUIDO - CANCELADO"
+											"status":"ABERTO - CONCLUIDO - CANCELADO",
+											"schoolNotas":{"PORTUGUÊS":8.5,"MATEMÁTICA":5.5,"HISTÓRIA":7.5,"GEOGRAFIA":6.5,"CIÊNCIAS":3.1, "INGLÊS":10}
 										},
 										
 										"l_tasks":[{
